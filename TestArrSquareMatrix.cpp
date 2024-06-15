@@ -1,8 +1,5 @@
 #include "SquareMatrix.h"
 #include <cassert>
-//------------можно раскомментировать, скомпилируется-------------//
-//#include "UI.h"
-//#include "UI.h"
 int** a;
 const double E = 5.0e-10;
 
@@ -37,8 +34,7 @@ void SMatrixTestGetDimension()
     assert(matrix_a.GetDimension() == 4);
     assert(matrix_b.GetDimension() == 4);
     assert(matrix_c.GetDimension() == 0);
-    // утечки памяти везде, сделать переменные матрицы, завести две статические переменные, инициализатор, 
-    //чтобы там явно была видна матрица
+   
     std::cout << "GetDimension tests passed" << std::endl;
 }
 
