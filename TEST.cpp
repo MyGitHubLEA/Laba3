@@ -30,7 +30,7 @@ int** Inisialisation(int N)
 void TEST()
 {
 	clock_t start, end;
-	//------------ArrayRectangularMatrix - матрица матриц---------------//
+	//------------ArrayRectangularMatrix---------------//
 	for (int n = 10; n < 1001; n += 50)
 	{
 		int** arr = Inisialisation(n);
@@ -48,7 +48,7 @@ void TEST()
 		std::cout << "Size of matrix: " << n;
 		Calculate(start, end);
 	}
-	//------------RectangularMatrix - массив матриц---------------//
+	//------------RectangularMatrix---------------//
 	for (int n = 10; n < 1001; n += 50)
 	{
 		int** arr = Inisialisation(n);
