@@ -1,7 +1,7 @@
 #pragma once
 
 #include "DynamicArray.h"
-#include "LinkedList.h"
+
 
 template <typename T> class Sequence
 {
